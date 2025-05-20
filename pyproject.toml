@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airline_app"
+version = "0.1.0"
+description = "Capital One Data Challenge Project"
+authors = ["Aman <amangudluri@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+plotly = "^6.0.0"
+dash = "^2.18.2"
+
+[tool.poetry.scripts]
+airline_app = "airline_app.src.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
